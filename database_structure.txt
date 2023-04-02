@@ -1,0 +1,22 @@
+products (Table):
+id          //required,numeric >>int,autoincrement,unique
+name        //required,string,max:100 >>varchar
+description //required,string >>text
+price       //required,numeric >>double
+img         //required,string,max:100 >>varchar
+created_at  //required,datetime
+======================================================================
+admins:
+id:        //required,numeric >>int,autoincrement,unique
+username:  //required,string,max:100 >>varchar
+email:     //required,string,max:100 >>varchar
+password:  //required,string,max:100 >>varchar
+=====================================================================
+categories:
+category_id://required,numeric >>int,autoincrement,unique
+type:       //required,string,max:100 >>varchar
+=====================================================================
+orders:
+
+=====================================================================
+orderdetails:
